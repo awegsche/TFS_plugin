@@ -1,3 +1,3 @@
 augroup filetypedetect
-  au BufNewFile,BufRead *.tfs     setf tfs
+    au BufRead,BufNewFile twiss*,*.tfs,get*.out set filetype=tfs
 augroup END
